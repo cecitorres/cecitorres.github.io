@@ -5,3 +5,11 @@
 .social-media-icons a:hover {
   color: #007bff;
 }
+
+.hero {
+  height: 100vh;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(/images/cover.jpg);
+  background-position: center;
+  background-size: cover;
+}

@@ -10,51 +10,78 @@
   <link rel="stylesheet" href="css/style.css">
   <title>Ceci Torres - Web Developer</title>
 </head>
-<body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-      <a class="navbar-brand" href="#">Ceci Torres</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="http://blog.cecitorres.mx/">Blog</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Acerca de mi</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <div class="container">
-    <div class="row mt-5">
-      <div class="col-md-6 offset-md-3 text-center">
-        <img src="images/avatar.jpg" class="img-fluid rounded-circle" style="width: 300px;">
-        <h1>Ceci Torres</h1>
-        <h2>Web Developer</h2>
-        <div class="social-media-icons">
-          <a href="https://github.com/cecitorres"><i class="fab fa-github fa-3x mr-3"></i></a>
-          <a href="https://www.instagram.com/cecitorresmx/"><i class="fab fa-instagram fa-3x mr-3"></i></a>
-          <a href="https://twitter.com/cecitorresmx"><i class="fab fa-twitter fa-3x mr-3"></i></a>
-          <a href="mailto:cecitorres7@gmail.com"><i class="far fa-envelope fa-3x mr-3"></i></a>
+<body class="text-center">
+  <section class="hero">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-light" href="#about">Acerca de mi</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link text-light" href="#portfolio">Portafolio</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link text-light" href="#contact">Contacto</a>
+            </li>
+          </ul>
         </div>
       </div>
+    </nav>
+    <div class="col-md-6 mx-auto" style="margin-top: 20vh;">
+      <h1 class="display-3 font-weight-normal">Cecilia Torres</h1>
+      <p class="lead font-weight-normal">Full Stack Developer</p>
     </div>
-    <div class="row mt-2">
-      <div class="col-md-6 offset-md-3">
-        <p> ¡Hola!, que gusto conocerte, soy Ceci Torres y vivo en Monterrey, Mx.</p>
-        <p> Actualmente trabajo de tiempo completo como Front-end Developer para una empresa privada. Ocasionalmente doy cursos y talleres sobre desarrollo y programación. Entre mis proyectos personales estan escribir artículos sobre desarrollo web y seguir mejorando mis skills tecnológicas. </p>
-        <p> Si quieres saber mas sobre mi trayectoria acádemica y profesional puedes descargar mi curriculum <a href="#">aquí</a>.</p>
+    <!-- <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@maxcodes?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Max Nelson"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Max Nelson</span></a> -->
+  </section>
+  <section id="about" class="py-5">
+    <div class="container">
+    <div class="row my-5">
+      <div class="col-12 mx-auto mb-5 text-center">
+        <h2>Acerca de mi</h2>
+      </div>
+      <div class="col-md-4 px-4">
+        <img src="images/me.jpg" class="img-fluid">
+      </div>
+      <div class="col-md-8 pr-5 text-left">
+        <p>¡Hola! Mi nombre es Cecilia y soy una Desarrolladora Web Full Stack ubicada en Monterrey, México. Tengo más de 4 años de experiencia profesional, colaborando en diversos proyectos con equipos multidisciplinarios. También, tengo experiencia impartiendo clases de programación en escuelas y cursos privados.</p>
+
+        <p>Actualmente estoy en busca de proyectos que me reten a seguir creciendo como programadora.</p>
+      </div>
+    </div>      
+  </div>
+  </section>
+  <section class="bg-secondary py-5">
+    <h1 class="display-5 text-center text-light">¿Quieres saber un poco más de mi? <button class="btn btn-lg btn-outline-light text-uppercase ml-3">Curriculum</button></h1>
+  </section>
+  <section id="portfolio" class="py-5">
+    <div class="col-12">
+      <div class="col-12 mx-auto text-center">
+        <p class="display-4">Portafolio</p>
+        <button class="btn">Próximamente</button>
       </div>
     </div>
-  </div>
+  </section>
+  <section id="contact" class="bg-dark py-5 text-center text-light">
+    <h1 class="display-5 mb-5 text-uppercase">¡Contáctame!</h1>
+    <p class="my-0">Escribeme a</p>
+    <h1 class="display-5 text-light mb-5"><a class="text-white" href="mailto:cecitorres7@gmail.com">cecitorres7@gmail.com</a></h1>
+
+    <div class="social-media-icons">
+      <a href="https://github.com/cecitorres"><i class="fab fa-github fa-3x mr-3"></i></a>
+      <a href="https://www.instagram.com/cecitorresmx/"><i class="fab fa-instagram fa-3x mr-3"></i></a>
+      <a href="https://twitter.com/cecitorresmx"><i class="fab fa-twitter fa-3x mr-3"></i></a>
+      <!-- <a href="mailto:cecitorres7@gmail.com"><i class="far fa-envelope fa-3x mr-3"></i></a> -->
+    </div>
+  </section>
+  <footer class="bg-dark py-2 text-light">
+    <p class="my-0">© Cecilia Torres | 2019</p>
+  </footer>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
